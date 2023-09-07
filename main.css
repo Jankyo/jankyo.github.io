@@ -1,0 +1,18 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.hero{
+	min-height: 100vh;
+	width: 100%;
+	background-color: #000;
+	background-image: url("spaceBG.gif");
+	/*Background source: https://www.pinterest.com/pin/i-find-drawing-stars-in-the-16-colors-ega-palette-therapeutic-i-hope-you-like-this-gif-i-created-last-night--47076758593905327/*/
+	background-position: center;
+	background-size: 100%;
+	color: #fff;
+	padding: 0 8%;
+	/*GIF background tutorial: https://www.youtube.com/watch?v=ke5xJ30bZnU*/
+}
