@@ -15,6 +15,11 @@
 	color: #fff;
 }
 
+body {
+	display: inline-block;
+	width: 100%;
+}
+
 h1 {
 	color: white;
 	background-color: rgba(50,50,50,0.85);
@@ -80,7 +85,7 @@ h2 {
 	transform: scaleX(-1);
 	float: left;
 	margin-top: 20%;
-	margin-left: 7%;
+	margin-left: 4.5%;
 	margin-bottom: 5%;
 }
 
@@ -91,6 +96,7 @@ h2 {
 	transform: scaleX(-1);
 	float: left;
 	margin-top: 8%;
+	margin-left: 2%;
 }
 
 .uranus {
@@ -100,7 +106,7 @@ h2 {
 	transform: scaleX(-1);
 	float: left;
 	margin-top: 5%;
-	margin-left: 6%;
+	margin-left: 3%;
 }
 
 .neptune {
@@ -109,7 +115,8 @@ h2 {
 	width: 5em;
 	float: left;
 	margin-top: 13%;
-	margin-left: 5%;
+	margin-right: 1%;
+	margin-left: 2%
 }
 
 article {
