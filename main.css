@@ -125,6 +125,8 @@ article {
 	font-family: "Monaco", monospace;
 	font-size: 1.625em;
 	display: inline-block;
+	width: 100%;
+	text-align: center;
 }
 article table {
 	display: inline-block;
