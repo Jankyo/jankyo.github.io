@@ -9,8 +9,7 @@
 	width: 100%;
 	background-color: #000;
 	background-image: url("retro_bg.gif");
-	background-position: center;
-	background-size: 100%;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	color: #fff;
 }
@@ -49,33 +48,34 @@ h2 {
 	float: left;
 	margin-left: 2%;
 	margin-top: 10%;
+	position: absolute;
 }
 
 .venus {
 }
 .venus img {
 	width: 5em;
-	float: left;
-	margin-left: 5%;
+	margin-left: 12.5%;
 	margin-top: 5%;
-
+	position: absolute;
 }
+
 .earth {
 }
 .earth img {
 	width: 5em;
-	float: left;
 	margin-top: 15%;
-	margin-left: 3%;
+	margin-left: 22.5%;
+	position: absolute;
 }
 
 .mars {
 }
 .mars img {
 	width: 5em;
-	float: left;
 	margin-top: 6.5%;
-	margin-left: 2%;
+	margin-left: 30%;
+	position: absolute;
 }
 
 .jupiter {
@@ -83,10 +83,10 @@ h2 {
 .jupiter img {
 	width: 5em;
 	transform: scaleX(-1);
-	float: left;
 	margin-top: 20%;
-	margin-left: 4.5%;
+	margin-left: 40%;
 	margin-bottom: 5%;
+	position: absolute;
 }
 
 .saturn {
@@ -94,9 +94,9 @@ h2 {
 .saturn img {
 	width: 12.5em;
 	transform: scaleX(-1);
-	float: left;
 	margin-top: 8%;
-	margin-left: 2%;
+	margin-left: 50%;
+	position: absolute;
 }
 
 .uranus {
@@ -104,19 +104,18 @@ h2 {
 .uranus img {
 	width: 5em;
 	transform: scaleX(-1);
-	float: left;
 	margin-top: 5%;
-	margin-left: 3%;
+	margin-left: 70%;
+	position: absolute;
 }
 
 .neptune {
 }
 .neptune img {
 	width: 5em;
-	float: left;
 	margin-top: 13%;
-	margin-right: 1%;
-	margin-left: 2%
+	margin-left: 80%;
+	position: absolute;
 }
 
 article {
