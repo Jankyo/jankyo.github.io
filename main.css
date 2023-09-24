@@ -45,37 +45,36 @@ h2 {
 .mercury img {
 	width: 5em;
 	transform: scaleX(-1);
-	float: left;
-	margin-left: 2%;
-	margin-top: 10%;
 	position: absolute;
+	left: 6.5%;
+	bottom: 44%;
 }
 
 .venus {
 }
 .venus img {
 	width: 5em;
-	margin-left: 12.5%;
-	margin-top: 5%;
 	position: absolute;
+	left: 18%;
+	bottom: 58%;
 }
 
 .earth {
 }
 .earth img {
 	width: 5em;
-	margin-top: 15%;
-	margin-left: 22.5%;
 	position: absolute;
+	left: 26.5%;
+	bottom: 35%;
 }
 
 .mars {
 }
 .mars img {
 	width: 5em;
-	margin-top: 6.5%;
-	margin-left: 30%;
 	position: absolute;
+	left: 36.5%;
+	bottom: 50%;
 }
 
 .jupiter {
@@ -83,10 +82,9 @@ h2 {
 .jupiter img {
 	width: 5em;
 	transform: scaleX(-1);
-	margin-top: 20%;
-	margin-left: 40%;
-	margin-bottom: 5%;
 	position: absolute;
+	left: 50%;
+	bottom: 26%;
 }
 
 .saturn {
@@ -94,9 +92,9 @@ h2 {
 .saturn img {
 	width: 12.5em;
 	transform: scaleX(-1);
-	margin-top: 8%;
-	margin-left: 50%;
 	position: absolute;
+	left: 58%;
+	bottom: 45%;
 }
 
 .uranus {
@@ -104,18 +102,18 @@ h2 {
 .uranus img {
 	width: 5em;
 	transform: scaleX(-1);
-	margin-top: 5%;
-	margin-left: 70%;
 	position: absolute;
+	left: 77%;
+	bottom: 55%;
 }
 
 .neptune {
 }
 .neptune img {
 	width: 5em;
-	margin-top: 13%;
-	margin-left: 80%;
 	position: absolute;
+	left: 87.5%;
+	bottom: 35%;
 }
 
 article {
