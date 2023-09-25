@@ -46,8 +46,13 @@ h2 {
 	width: 5em;
 	transform: scaleX(-1);
 	position: absolute;
+<<<<<<< HEAD
 	left: 7%;
 	top: 31.5%;
+=======
+	left: 6.5%;
+	bottom: 44%;
+>>>>>>> 30a566f27d13da13edb2d3592dae919a298cf1fd
 }
 
 .venus {
@@ -56,7 +61,11 @@ h2 {
 	width: 5em;
 	position: absolute;
 	left: 18%;
+<<<<<<< HEAD
 	top: 46.5%;
+=======
+	bottom: 58%;
+>>>>>>> 30a566f27d13da13edb2d3592dae919a298cf1fd
 }
 
 .earth {
@@ -64,8 +73,13 @@ h2 {
 .earth img {
 	width: 5em;
 	position: absolute;
+<<<<<<< HEAD
 	left: 26%;
 	top: 24%;
+=======
+	left: 26.5%;
+	bottom: 35%;
+>>>>>>> 30a566f27d13da13edb2d3592dae919a298cf1fd
 }
 
 .mars {
@@ -73,8 +87,13 @@ h2 {
 .mars img {
 	width: 5em;
 	position: absolute;
+<<<<<<< HEAD
 	left: 37%;
 	top: 36.5%;
+=======
+	left: 36.5%;
+	bottom: 50%;
+>>>>>>> 30a566f27d13da13edb2d3592dae919a298cf1fd
 }
 
 .jupiter {
@@ -83,8 +102,13 @@ h2 {
 	width: 5em;
 	transform: scaleX(-1);
 	position: absolute;
+<<<<<<< HEAD
 	left: 47%;
 	top: 56.5%;
+=======
+	left: 50%;
+	bottom: 26%;
+>>>>>>> 30a566f27d13da13edb2d3592dae919a298cf1fd
 }
 
 .saturn {
@@ -94,7 +118,11 @@ h2 {
 	transform: scaleX(-1);
 	position: absolute;
 	left: 58%;
+<<<<<<< HEAD
 	top: 31%;
+=======
+	bottom: 45%;
+>>>>>>> 30a566f27d13da13edb2d3592dae919a298cf1fd
 }
 
 .uranus {
@@ -103,8 +131,13 @@ h2 {
 	width: 5em;
 	transform: scaleX(-1);
 	position: absolute;
+<<<<<<< HEAD
 	left: 75%;
 	top: 44%;
+=======
+	left: 77%;
+	bottom: 55%;
+>>>>>>> 30a566f27d13da13edb2d3592dae919a298cf1fd
 }
 
 .neptune {
@@ -112,8 +145,13 @@ h2 {
 .neptune img {
 	width: 5em;
 	position: absolute;
+<<<<<<< HEAD
 	left: 82.5%;
 	top: 26.5%;
+=======
+	left: 87.5%;
+	bottom: 35%;
+>>>>>>> 30a566f27d13da13edb2d3592dae919a298cf1fd
 }
 
 article {
