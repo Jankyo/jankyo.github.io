@@ -149,7 +149,7 @@ article {
 	width: 100%;
 	text-align: center;
 }
-article nav {
+nav {
 	padding: 15px;
 	border: solid 2px rgb(200,150,250);
 	border-radius: 40px 10px;
@@ -158,7 +158,10 @@ article nav {
 	display: block;
 	background-color: rgba(200,150,250,0.7)
 }
-article button {
+nav a {
+	color: rgb(80,0,115);
+}
+nav button {
 	font-family: "Monaco", monospace;
 	background-color: rgb(180,150,250);
 	padding: 15px 30px;
@@ -166,9 +169,11 @@ article button {
 	border-radius: 40px 10px;
 	border-color: rgb(150,110,210);
 	transition-duration: 0.01s;
+	display: block center;
 }
-article button:hover {
+nav button:hover {
 	background-color: rgb(100,80,150);
+	cursor: pointer;
 }
 article table {
 	display: inline-block;

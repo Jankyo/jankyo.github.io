@@ -6,18 +6,25 @@
 
 .bg {
 	background-color: white;
+	background-image: url("stars.png");
 }
 
 h1 {
+	color: white;
 	text-align: left;
 	font-size: 3.75em;
 	font-family: "sans-serif", Arial;
+	background-color: black;
 }
 
 h2 {
 	text-align: left;
 	font-size: 2.5em;
 	font-family: "sans-serif", Arial;
+}
+.mainh2 {
+	color: white;
+	background-color: black;
 }
 
 #sun {
@@ -35,7 +42,7 @@ h2 {
 .mercury img:hover {
 	display: inline;
 	width: 25em;
-	border-right: solid black 1em;
+	border-right: solid rgb(100,100,100) 1em;
 	padding: 1em;
 }
 .mercury a:hover + .merStats {
@@ -45,7 +52,8 @@ h2 {
 	font-size: 3.5em;
 	margin-left: 1em;
 	color: rgb(50,50,50);
-	background-color: rgba(100,100,100,0.5);
+	background-color: rgb(230,230,230);
+	
 }
 
 .venStats {
@@ -113,8 +121,8 @@ h2 {
 	text-align: left;
 	font-size: 3.5em;
 	margin-left: 1em;
-	color: rgb(175,135,10);
-	background-color: rgba(225,190,90,0.5);
+	color: rgb(155,115,0);
+	background-color: rgb(245,210,110);
 }
 
 .jupStats {
@@ -137,7 +145,7 @@ h2 {
 	font-size: 3.5em;
 	margin-left: 1em;
 	color: rgb(200,170,130);
-	background-color: rgba(210,230,230,0.5);
+	background-color: rgb(210,230,230);
 }
 
 .satStats {
@@ -160,7 +168,7 @@ h2 {
 	font-size: 3.5em;
 	margin-left: 1em;
 	color: rgb(150,150,130);
-	background-color: rgba(235,230,210,0.5);
+	background-color: rgb(235,230,210);
 }
 
 .uraStats {
@@ -182,8 +190,8 @@ h2 {
 	text-align: left;
 	font-size: 3.5em;
 	margin-left: 1em;
-	color: rgb(165,200,210);
-	background-color: rgba(200,225,230,0.5);
+	color: rgb(135,170,200);
+	background-color: rgb(210,235,240);
 }
 
 .nepStats {
@@ -206,7 +214,7 @@ h2 {
 	font-size: 3.5em;
 	margin-left: 1em;
 	color: rgb(30,120,200);
-	background-color: rgba(125,180,225,0.5);
+	background-color: rgb(145,200,245);
 }
 
 article table {
@@ -216,18 +224,39 @@ article p {
 	display: none;
 }
 
-article {
+nav {
+	text-align: center;
 	position: fixed;
 	font-size: 1.25em;
 	right: 0%;
-	top: 0%;
-	height: 100%;
+	top: 35%;
 	padding: 0.5em;
 	font-family: "sans-serif", Arial;
-	border-left: solid rgb(220,220,213) 0.5em;
-	background-color: rgb(240,240,233);
+	background-color: white;
+	border-left: solid 0.25em black;
+	border-bottom: solid 0.25em black;
+	border-top: solid 0.25em black;
+	background-color: rgb(220,220,220);
+}
+nav a {
+	color: black;
+	border-bottom: solid black 0.10em;
+	border-radius: 5px;
+	padding: 3px 8px;
+	transition-duration: 1s;
+	text-decoration: none;
+}
+nav button {
+	padding: 22.5px 22.5px;
+	border-radius: 10px;
+	transition-duration: 1s;
+}
+nav button:hover {
+	background-color: rgb(200,200,200);
+	cursor: pointer;
 }
 
 footer {
 	font-family: "sans-serif", Arial;
+	background-color: gray;
 }
