@@ -40,80 +40,104 @@ h2 {
 	float: left;
 }
 
-.mercury {
-}
+
 .mercury img {
 	width: 5em;
 	transform: scaleX(-1);
 	position: absolute;
 	left: 7%;
 	top: 31.5%;
+	transition-duration: 0.2s;
+}
+.mercury img:hover {
+	width: 5.5em;
 }
 
-.venus {
-}
+
 .venus img {
 	width: 5em;
 	position: absolute;
 	left: 18%;
 	top: 46.5%;
+	transition-duration: 0.2s;
+}
+.venus img:hover {
+	width: 5.5em;
 }
 
-.earth {
-}
+
 .earth img {
 	width: 5em;
 	position: absolute;
 	left: 26%;
 	top: 24%;
+	transition-duration: 0.2s;
+}
+.earth img:hover {
+	width: 5.5em;
 }
 
-.mars {
-}
+
 .mars img {
 	width: 5em;
 	position: absolute;
 	left: 37%;
 	top: 36.5%;
+	transition-duration: 0.2s;
+}
+.mars img:hover {
+	width: 5.5em;
 }
 
-.jupiter {
-}
+
 .jupiter img {
 	width: 5em;
 	transform: scaleX(-1);
 	position: absolute;
 	left: 47%;
 	top: 56.5%;
+	transition-duration: 0.2s;
+}
+.jupiter img:hover {
+	width: 5.5em;
 }
 
-.saturn {
-}
+
 .saturn img {
 	width: 12.5em;
 	transform: scaleX(-1);
 	position: absolute;
 	left: 58%;
 	top: 31%;
+	transition-duration: 0.2s;
+}
+.saturn img:hover {
+	width: 14em;
 }
 
-.uranus {
-}
+
 .uranus img {
 	width: 5em;
 	transform: scaleX(-1);
 	position: absolute;
 	left: 75%;
 	top: 44%;
+	transition-duration: 0.2s;
+}
+.uranus img:hover {
+	width: 5.5em;
 }
 
-.neptune {
-}
+
 .neptune img {
 	width: 5em;
 	position: absolute;
 	left: 82.5%;
 	top: 26.5%;
+	transition-duration: 0.2s;
+}
+.neptune img:hover {
+	width: 5.5em;
 }
 
 article {
@@ -124,6 +148,27 @@ article {
 	display: inline-block;
 	width: 100%;
 	text-align: center;
+}
+article nav {
+	padding: 15px;
+	border: solid 2px rgb(200,150,250);
+	border-radius: 40px 10px;
+	float: right;
+	margin-right: 1%;
+	display: block;
+	background-color: rgba(200,150,250,0.7)
+}
+article button {
+	font-family: "Monaco", monospace;
+	background-color: rgb(180,150,250);
+	padding: 15px 30px;
+	color: white;
+	border-radius: 40px 10px;
+	border-color: rgb(150,110,210);
+	transition-duration: 0.01s;
+}
+article button:hover {
+	background-color: rgb(100,80,150);
 }
 article table {
 	display: inline-block;
@@ -148,4 +193,8 @@ article th {
 footer {
 	color: powderblue;
 	background-color: rgba(0,0,0,1.0);
+}
+
+.plntPics ul{
+	display: none;
 }

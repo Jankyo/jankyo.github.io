@@ -1,0 +1,233 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.bg {
+	background-color: white;
+}
+
+h1 {
+	text-align: left;
+	font-size: 3.75em;
+	font-family: "sans-serif", Arial;
+}
+
+h2 {
+	text-align: left;
+	font-size: 2.5em;
+	font-family: "sans-serif", Arial;
+}
+
+#sun {
+	display: none;
+}
+
+.merStats {
+	display: none;
+}
+.mercury img {
+	width: 20em;
+	transition-duration: 1s;
+	margin-top: 2em;
+}
+.mercury img:hover {
+	display: inline;
+	width: 25em;
+	border-right: solid black 1em;
+	padding: 1em;
+}
+.mercury a:hover + .merStats {
+	list-style-type: none;
+	display: inline-block;
+	text-align: left;
+	font-size: 3.5em;
+	margin-left: 1em;
+	color: rgb(50,50,50);
+	background-color: rgba(100,100,100,0.5);
+}
+
+.venStats {
+	display: none;
+}
+.venus img {
+	width: 20em;
+	transition-duration: 1s;
+	margin-top: 2em;
+}
+.venus img:hover {
+	width: 25em;
+	border-right: solid rgb(210,160,25) 1em;
+	padding: 1em;
+}
+.venus a:hover + .venStats {
+	list-style-type: none;
+	display: inline-block;
+	text-align: left;
+	font-size: 3.5em;
+	margin-left: 1em;
+	color: rgb(230,200,105);
+	background-color: rgb(250,245,220);
+}
+
+.earStats {
+	display: none;
+}
+.earth img {
+	width: 20em;
+	transition-duration: 1s;
+	margin-top: 2em;
+}
+.earth img:hover {
+	width: 25em;
+	border-right: solid rgb(25,120,60) 1em;
+	padding: 1em;
+}
+.earth a:hover + .earStats {
+	list-style-type: none;
+	display: inline-block;
+	text-align: left;
+	font-size: 3.5em;
+	margin-left: 1em;
+	color: rgb(20,55,150);
+	background-color: rgb(205,210,235);
+}
+
+.marStats {
+	display: none;
+}
+.mars img {
+	width: 20em;
+	transition-duration: 1s;
+	margin-top: 2em;
+}
+.mars img:hover {
+	width: 25em;
+	border-right: solid rgb(150,90,10) 1em;
+	padding: 1em;
+}
+.mars a:hover + .marStats {
+	list-style-type: none;
+	display: inline-block;
+	text-align: left;
+	font-size: 3.5em;
+	margin-left: 1em;
+	color: rgb(175,135,10);
+	background-color: rgba(225,190,90,0.5);
+}
+
+.jupStats {
+	display: none;
+}
+.jupiter img {
+	width: 20em;
+	transition-duration: 1s;
+	margin-top: 2em;
+}
+.jupiter img:hover {
+	width: 25em;
+	border-right: solid rgb(210,100,30) 1em;
+	padding: 1em;
+}
+.jupiter a:hover + .jupStats {
+	list-style-type: none;
+	display: inline-block;
+	text-align: left;
+	font-size: 3.5em;
+	margin-left: 1em;
+	color: rgb(200,170,130);
+	background-color: rgba(210,230,230,0.5);
+}
+
+.satStats {
+	display: none;
+}
+.saturn img {
+	width: 30em;
+	transition-duration: 1s;
+	margin-top: 2em;
+}
+.saturn img:hover {
+	width: 35em;
+	border-right: solid rgb(170,160,140) 1em;
+	padding: 1em;
+}
+.saturn a:hover + .satStats {
+	list-style-type: none;
+	display: inline-block;
+	text-align: left;
+	font-size: 3.5em;
+	margin-left: 1em;
+	color: rgb(150,150,130);
+	background-color: rgba(235,230,210,0.5);
+}
+
+.uraStats {
+	display: none;
+}
+.uranus img {
+	width: 20em;
+	transition-duration: 1s;
+	margin-top: 2em;
+}
+.uranus img:hover {
+	width: 25em;
+	border-right: solid rgb(150,210,215) 1em;
+	padding: 1em;
+}
+.uranus a:hover + .uraStats {
+	list-style-type: none;
+	display: inline-block;
+	text-align: left;
+	font-size: 3.5em;
+	margin-left: 1em;
+	color: rgb(165,200,210);
+	background-color: rgba(200,225,230,0.5);
+}
+
+.nepStats {
+	display: none;
+}
+.neptune img {
+	width: 20em;
+	transition-duration: 1s;
+	margin-top: 2em;
+}
+.neptune img:hover {
+	width: 25em;
+	border-right: solid rgb(25,100,170) 1em;
+	padding: 1em;
+}
+.neptune a:hover + .nepStats {
+	list-style-type: none;
+	display: inline-block;
+	text-align: left;
+	font-size: 3.5em;
+	margin-left: 1em;
+	color: rgb(30,120,200);
+	background-color: rgba(125,180,225,0.5);
+}
+
+article table {
+	display: none;
+}
+article p {
+	display: none;
+}
+
+article {
+	position: fixed;
+	font-size: 1.25em;
+	right: 0%;
+	top: 0%;
+	height: 100%;
+	padding: 0.5em;
+	font-family: "sans-serif", Arial;
+	border-left: solid rgb(220,220,213) 0.5em;
+	background-color: rgb(240,240,233);
+}
+
+footer {
+	font-family: "sans-serif", Arial;
+}
