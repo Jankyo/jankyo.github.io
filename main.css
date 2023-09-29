@@ -159,7 +159,18 @@ nav {
 	background-color: rgba(200,150,250,0.7)
 }
 nav a {
-	color: rgb(80,0,115);
+	font-family: "Monaco", monospace;
+	background-color: rgb(180,150,250);
+	padding: 0px 20px;
+	color: rgb(90,20,100);
+	border-radius: 5px 30px 5px 30px;
+	border-color: rgb(150,110,210);
+	transition-duration: 0.01s;
+	text-decoration: none;
+}
+nav a:hover {
+	color: white;
+	background-color: rgb(100,80,150);
 }
 nav button {
 	font-family: "Monaco", monospace;
