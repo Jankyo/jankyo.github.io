@@ -11,7 +11,7 @@
 	background-size: 100%;
 }
 
-h1 {
+.header {
 	color: rgb(0,0,65);
 	text-align: left;
 	font-size: 3.75em;
@@ -19,12 +19,10 @@ h1 {
 	background-color: rgba(255,255,255,0.85);
 }
 
-h2 {
+.header2 {
 	text-align: left;
 	font-size: 2.5em;
 	font-family: "sans-serif", Arial;
-}
-.mainh2 {
 	color: rgb(0,0,65);
 	background-color: rgba(255,255,255,0.85);
 }
@@ -226,14 +224,14 @@ h2 {
 	background-color: rgb(145,200,245);
 }
 
-article table {
+.article table {
 	display: none;
 }
-article p {
+.article p {
 	display: none;
 }
 
-nav {
+.nav {
 	text-align: center;
 	position: fixed;
 	font-size: 1.25em;
@@ -246,10 +244,10 @@ nav {
 	border-bottom: solid 0.25em black;
 	border-top: solid 0.25em black;
 }
-nav h3 {
+.nav h3 {
 	color: rgb(0,0,65);
 }
-nav a {
+.nav a {
 	color: black;
 	border-bottom: solid black 0.10em;
 	border-radius: 5px;
@@ -257,23 +255,23 @@ nav a {
 	transition-duration: 1s;
 	text-decoration: none;
 }
-nav a:hover {
+.nav a:hover {
 	transition-duration: 0.25s;
 	color: darkblue;
 	border-color: darkblue;
 }
-nav button {
+.nav button {
 	padding: 22.5px 22.5px;
 	border-radius: 10px;
 	transition-duration: 1s;
 }
-nav button:hover {
+.nav button:hover {
 	background-color: darkblue;
 	color: white;
 	cursor: pointer;
 }
 
-footer {
+.footer {
 	color: white;
 	font-family: "sans-serif", Arial;
 	background-color: rgba(50,100,200,0.5);

@@ -1,2 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Make one About the Author website look formal, one pimped out -->
+<head>
+	<title>About Me</title>
+	<link id='csslink' rel="stylesheet" href="main.css" />
+	<script>
+	    function toggleCSS() {
+          // Obtains the <link> element that links to the css (by using its id).
+          var currentCSS = document.getElementById('csslink');
+
+          // Change the value of href attribute to change the css file.
+          if (currentCSS.getAttribute('href') == 'main.css') {
+            currentCSS.setAttribute('href', 'alternate.css');
+          } else {
+            currentCSS.setAttribute('href', 'main.css');
+          }
+      }
+	</script>
+</head>
+<body>
+	<div class="abg">
+		<header>
+			<h1>About the Author</h1>
+			<h2>Aaron</h2>
+		</header>
+	</div>
+</body>
