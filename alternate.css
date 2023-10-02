@@ -280,17 +280,66 @@
 
 
 
+.sun-body {
+	font-family: "Georgia", serif;
+	text-align; center;
+}
+
 .sun-h1 {
-	
+	text-align: center;
+	padding-bottom: 0.5em;
 }
 .sun-h2 {
-	
+	text-align: center;
+	padding-bottom: 1em;
+}
+
+.sun-article h3{
+	padding: 0.25em;
+}
+.sun-article p{
+	padding: 0.25em;
+	text-align: center;
+}
+
+.sun-table {
+	padding: 2em;
+	text-align: center;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.sun-table td {
+	padding: 0.5em;
+	border: solid black 0.10em;
+	text-align: center;
+	width: 15em;
+}
+.sun-table li {
+	list-style-type: none;
 }
 
 .sun-nav {
-	
+	text-align: center;
+	padding: 1em;
 }
-
-.sun-footer {
-	
+.sun-nav button {
+	padding: 1em;
+	font-family: "Georgia", serif;
+}
+.sun-nav button:hover {
+	cursor: pointer;
+}
+.sun-nav a {
+	border: solid 1px black;
+	padding-top: 0.75em;
+	padding-bottom: 0.85em;
+	padding-left: 0.10em;
+	padding-right: 0.10em;
+	text-decoration: none;
+	background-color: rgba(230,230,230,0.5);
+}
+.sun-nav a:hover {
+	background-color: rgba(200,200,200,0.5);
 }
