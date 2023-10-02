@@ -186,6 +186,7 @@
 	background-color: rgb(100,80,150);
 	cursor: pointer;
 }
+
 .article table {
 	display: inline-block;
 }
@@ -217,6 +218,103 @@
 
 
 
-. {
-	
+.sun-body {
+	min-height: 100vh;
+	width: 100%;
+	background-color: #000;
+	background-image: url("sun-bg.jpg");
+	background-size: 100% 100%;
+	color: #fff;
+}
+
+.sun-h1 {
+	font-family: "Tahoma", sans-serif;
+	text-align: right;
+	padding-right: 0.75em;
+	font-size: 5em;
+	color: rgb(255,153,51);
+}
+.sun-h2 {
+	font-family: "Tahoma", sans-serif;
+	text-align: right;
+	padding-right: 0.75em;
+	font-size: 2.15em;
+	color: rgb(255,204,102);
+}
+
+.sun-article h3{
+	font-family: "Tahoma", sans-serif;
+	margin-top: 3em;
+	padding-left: 1em;
+	color: rgb(255,153,51);
+	background-color: rgba(0,0,0,0.75);
+	font-size: 1.5em;
+}
+.sun-article p{
+	font-family: "Tahoma", sans-serif;
+	padding-left: 1em;
+	color: rgb(255,204,102);
+	background-color: rgba(0,0,0,0.75);
+	font-size: 1.15em;
+}
+
+.sun-table {
+	padding: 1em;
+}
+.sun-table th {
+	font-family: "Tahoma", sans-serif;
+	background-color: rgb(51,0,0);
+	font-size: 1.5em;
+	border: solid 0.1em;
+	border-color: rgb(153,0,0);
+	padding: 0.25em;
+}
+.sun-table td {
+	font-family: "Tahoma", sans-serif;
+	background-color: rgb(51,0,0);
+	font-size: 1.25em;
+	border: solid 0.1em;
+	border-color: rgb(153,0,0);
+	padding: 0.25em;
+	width: 12.5em;
+}
+.sun-table li {
+	list-style-type: none;
+}
+
+.sun-nav {
+	position: absolute;
+	top: 0%;
+	padding: 0.5em;
+	font-family: "Tahoma", sans-serif;
+}
+.sun-nav button {
+	font-family: "Tahoma", sans-serif;
+	color: white;
+	padding: 1em;
+	transition-duration: 0.5s;
+	background-color: red;
+}
+.sun-nav button:hover {
+	background-color: orange;
+	color: white;
+	cursor: pointer;
+}
+.sun-nav a {
+	color: white;
+	border: ridge red 0.25em;
+	padding: 0.55em;
+	transition-duration: 0.5s;
+	text-decoration: none;
+	background-color: red;
+}
+.sun-nav a:hover {
+	background-color: orange;
+	border-color: orange;
+}
+
+.sun-footer {
+	font-family: "Tahoma", sans-serif;
+	color: white;
+	background-color: rgba(0,0,0,0.75);
 }
