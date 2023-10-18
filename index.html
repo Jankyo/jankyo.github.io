@@ -29,9 +29,9 @@
 			<h2 class="header2">Select any planet for more information</h2>
 		</section>
 		
-		<div class="plntPics">
-			<img src="sun.png" id="sun"></img>
-			<div class="mercury">
+		<div class="plntPics" role="table">
+			<img src="sun.png" id="sun" alt="Sun"></img>
+			<div class="mercury" role="button">
 				<a href="https://solarsystem.nasa.gov/planets/mercury/overview/" target="_blank">
 				<img src="mercury.png" alt="Mercury"></a>
 				<ul class="merStats">
@@ -41,7 +41,7 @@
 					<li>Gravity: 3.7m/s<sup>2</sup></li>
 				</ul>
 			</div>
-			<div class="venus">
+			<div class="venus" role="button">
 				<a href="https://solarsystem.nasa.gov/planets/venus/overview/" target="_blank">
 				<img src="venus.png" alt="Venus"></a>
 				<ul class="venStats">
@@ -51,7 +51,7 @@
 					<li>Gravity: 8.9m/s<sup>2</sup></li>
 				</ul>
 			</div>
-			<div class="earth">
+			<div class="earth" role="button">
 				<a href="https://solarsystem.nasa.gov/planets/earth/overview/" target="_blank">
 				<img src="earth.png" alt="Earth"></a>
 				<ul class="earStats">
@@ -61,7 +61,7 @@
 					<li>Gravity: 9.8m/s<sup>2</sup></li>
 				</ul>
 			</div>
-			<div class="mars">
+			<div class="mars" role="button">
 				<a href="https://solarsystem.nasa.gov/planets/mars/overview/" target="_blank">
 				<img src="mars.png" alt="Mars"></a>
 				<ul class="marStats">
@@ -71,7 +71,7 @@
 					<li>Gravity: 3.7m/s<sup>2</sup></li>
 				</ul>
 			</div>
-			<div class="jupiter">
+			<div class="jupiter" role="button">
 				<a href="https://solarsystem.nasa.gov/planets/jupiter/overview/" target="_blank">
 				<img src="jupiter.png" alt="Jupiter"></a>
 				<ul class="jupStats">
@@ -81,7 +81,7 @@
 					<li>Gravity: 23.1m/s<sup>2</sup></li>
 				</ul>
 			</div>
-			<div class="saturn">
+			<div class="saturn" role="button">
 				<a href="https://solarsystem.nasa.gov/planets/saturn/overview/" target="_blank">
 				<img src="saturn.png" alt="Saturn"></a>
 				<ul class="satStats">
@@ -91,7 +91,7 @@
 					<li>Gravity: 9m/s<sup>2</sup></li>
 				</ul>
 			</div>
-			<div class="uranus">
+			<div class="uranus" role="button">
 				<a href="https://solarsystem.nasa.gov/planets/uranus/overview/" target="_blank">
 				<img src="uranus.png" alt="Uranus"></a>
 				<ul class="uraStats">
@@ -101,7 +101,7 @@
 					<li>Gravity: 8.7m/s<sup>2</sup></li>
 				</ul>
 			</div>
-			<div class="neptune">
+			<div class="neptune" role="button">
 				<a href="https://solarsystem.nasa.gov/planets/neptune/overview/" target="_blank">
 				<img src="neptune.png" alt="Neptune"></a>
 				<ul class="nepStats">
@@ -200,13 +200,13 @@
 			</table>
 			<nav class="nav">
 				<h3>Extras</h3>
-				<a href="https://exoplanets.nasa.gov/alien-worlds/exoplanet-travel-bureau/" target="_blank">VR Worlds</a>
+				<a href="https://exoplanets.nasa.gov/alien-worlds/exoplanet-travel-bureau/" target="_blank" aria-label="VR Worlds">VR Worlds</a>
 				<br></br>
-				<a href="https://spacedashboard.com/" target="_blank">Dashboard</a>
+				<a href="https://spacedashboard.com/" target="_blank" aria-label="Dashboard">Dashboard</a>
 				<br></br>
-				<a href="https://james.darpinian.com/satellites/" target="_blank">Satellites</a>
+				<a href="https://james.darpinian.com/satellites/" target="_blank" aria-label="Satellites">Satellites</a>
 				<br></br>
-				<a href="sun.html">The Sun</a>
+				<a href="sun.html" aria-label="The Sun">The Sun</a>
 				<br></br>
 				<button onclick="toggleCSS();window.location.href='#top'">Switch Style</button>
 			</nav>

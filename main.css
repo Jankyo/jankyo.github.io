@@ -166,7 +166,7 @@
 	border-radius: 5px 30px 5px 30px;
 	border-color: rgb(150,110,210);
 	transition-duration: 0.01s;
-	text-decoration: none;
+	
 }
 .nav a:hover {
 	color: white;
@@ -176,7 +176,7 @@
 	font-family: "Monaco", monospace;
 	background-color: rgb(180,150,250);
 	padding: 15px 30px;
-	color: white;
+	color: rgb(90,20,100);
 	border-radius: 40px 10px;
 	border-color: rgb(150,110,210);
 	transition-duration: 0.01s;
@@ -185,6 +185,7 @@
 .nav button:hover {
 	background-color: rgb(100,80,150);
 	cursor: pointer;
+	color: white;
 }
 
 .article table {
